@@ -1,0 +1,56 @@
+<annotation source="annotations" class="annotation right"></annotation>
+  
+  <!-- Personal details + Google map -->
+    <div ng-controller="contactCtrl">
+    
+      <div class="centered">
+        <table class="centered image-table-small contacts-wrapper ">
+          <tr ng-repeat="contact in contacts">
+            <td>
+              <img src="{{contact.imgUrl}}" title="{{contact.imgTitle}}" alt="{{contact.imgTitle}}"/>
+              <span>&nbsp{{contact.Title}}</span>
+            </td>
+            <td>
+              <div ng-switch on="contact.Name">
+                <div ng-switch-when="address">
+                  <span>
+                    {{contact.Data}}
+                  </span>
+                </div>
+                <div ng-switch-when="email">
+                  <span>
+                    <a href="mailto:{{contact.Data}}">
+                      {{contact.Data}}
+                    </a>
+                  </span>
+                </div>
+                <div ng-switch-when="phonenumber">
+                  <span>
+                    <a href="tel:{{contact.Data}}">
+                      {{contact.Data}}
+                    </a>
+                  </span>
+                </div>
+                <div ng-switch-when="skype">
+                  <span>
+                    <a href="skype:{{contact.Data}}?call">
+                      {{contact.Data}}
+                    </a>
+                  </span>
+                </div>
+                <div ng-switch-default>
+                  <span>
+                    <a href="{{contact.Data}}">
+                      {{contact.Data}}
+                    </a>
+                  </span>
+                </div>
+              </div>
+            </td>
+          </tr>
+        <table>
+      </div>
+      
+          
+  
+  

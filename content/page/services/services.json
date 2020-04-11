@@ -1,0 +1,26 @@
+{
+	"Annotations" : 
+	[
+		"I believe in quality development, attention to detail,", 
+		"creative identity and beautiful content look."
+	],
+	"Services" : 
+	[
+		{	"Title":"C#.Net Development", 
+			"Text": "Application development. Further software code support and development." , 
+			"Image": "/content/image/icon/icon-paragraph/icon_console.png"
+		},
+		{	"Title":"Web Development", 
+			"Text": "Personal websites, turnkey websites, web shops, blogs design and development." , 
+			"Image": "/content/image/icon/icon-paragraph/icon_webdev.png"
+		},
+		{	"Title":"Databases development", 
+			"Text": "Databases modelling, development and administration." , 
+			"Image": "/content/image/icon/icon-paragraph/icon_db.png"
+		},
+		{	"Title":"Any another work", 
+			"Text": "I would be glad to participate in any project in the field of software development." , 
+			"Image": "/content/image/icon/icon-paragraph/icon_bulb.png"
+		}
+	]
+}

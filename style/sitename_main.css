@@ -1,0 +1,174 @@
+/*  Variables */	
+:root {
+    --main-background-color: none;
+    --main-color: rgb(255,215,0);
+    --main-a-color: rgb(255,215,0);
+    --main-content-color: rgba(0,0,0,0.5);
+    --body-margin-top: 0.5em;
+    --body-margin-left: 0.5em;
+    --body-margin-right: 0.5em;
+    --content-padding: 0.5em;
+    --navigation-height: 4em;
+  }
+  /*  Variables */
+
+  
+/*  Main styles */
+*
+{
+    outline:none;
+    font-family: "Segoe UI", "Noto Sans", "Nimbus Sans";
+    font-weight: 300;
+}
+
+html
+{
+    height: 97.5%;
+    /*min-height: 100%;*/
+}
+html::-webkit-scrollbar-track,
+#sitename-content::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    background-color: #000000;
+}
+html::-webkit-scrollbar,
+#sitename-content::-webkit-scrollbar
+{
+    width: 6px;
+    height: 6px;
+    background-color: #000000;
+}
+html::-webkit-scrollbar-thumb,
+#sitename-content::-webkit-scrollbar-thumb
+{
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+
+
+body
+{
+	cursor: url('AppStarting.ani'), auto;
+    color: rgb(255,215,0);
+    margin: 0.5em 0.5em 0.5em 0.5em;;
+    overflow: hidden;
+    background-color: #000000;
+    background-image: url("/content/image/background/earth-view-from-satellite-space-systems-cover.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center; 
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+body a
+{
+    color: rgb(255,215,0);
+    text-decoration: none;
+}
+
+/*  Navigation / Menu	*/
+
+#sitename
+{
+    background-color:none;
+}
+
+#sitename-navigation-wrapper
+{
+    display: inline-block;
+    background-color: inherit;
+    height: 4em;
+    width: 100%;
+}
+
+#sitename-navigation
+{
+    background-color: rgba(0,0,0,0.75);
+    width: calc(100% - 1em);
+    text-align: center;
+    padding: 0em 0.5em 0em 0.5em;
+    
+}
+
+#sitename-navigation-menu
+{
+    
+    display: inline;
+    background-color:none;
+    /*height:0px;
+    overflow:hidden;
+    position:relative;*/
+}	
+
+#sitename-navigation-name-box
+{		
+    background-color: none;
+    text-transform:uppercase;
+    list-style: none;
+    margin-right: 0;
+}	
+
+#sitename-navigation-menu ul
+{
+    display: inline;
+    padding: 0;
+    background-color:inherit;
+}
+
+.navigation-menu-li
+{
+    display: inline-block 						!important;
+    margin-left: -.36em;
+    list-style: none;
+    text-transform:uppercase;
+    font-size: 1.5em;
+}
+
+.navigation-menu-li :hover/*, 
+.navigation-menu-li :active,
+.navigation-menu-li :focus*/
+{
+    background-color:white;
+    color: black;
+    cursor: pointer;
+}
+.navigation-menu-li a, 
+            .navigation-menu-li span 
+            {
+                display: inherit;
+                line-height: 1;
+                background-color:inherit;
+                color: rgb(255,215,0);
+                
+                padding:0.31em 0.31em 0.5em 0.31em;
+                text-decoration: none;
+            }
+                
+            .sitename-navigation-path   {
+                background-color:rgba(0,0,255,0.5);
+                margin: 0;
+                font-size: 0.75em;
+            }
+            ul.sitename-navigation-path   {
+                display: block;
+                
+            }
+            
+            ul.sitename-navigation-path  li {
+                display: block;
+                display: inline;
+            }
+
+.sitename-navigation-path select
+{
+    background-color:rgba(0,0,255,0.5);
+    color: rgb(255,215,0);
+    border: none;
+    align: right;
+    font-size: 0.7rem;
+    height: 1rem;
+}                       

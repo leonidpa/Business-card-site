@@ -1,0 +1,92 @@
+<div class="player">
+	<img 
+		id="playerImgBackward"
+		src="{{$ctrl.source.imgUrl+'icon_Backward.png'}}" 
+		title="Backward" 
+		alt="Backward"
+		onclick="backward(this);"
+	/>
+	<img 
+		id="playerImgForward"
+		src="{{$ctrl.source.imgUrl+'icon_Forward.png'}}" 
+		title="Forward" 
+		alt="Forward"
+		onclick="forward(this);"
+	/>
+	&nbsp;
+	<img 
+		id="playerImgPlay"
+		src="{{$ctrl.source.imgUrl+'icon_PlayOff.png'}}" 
+		title="{{$ctrl.source.imgTitle}}" 
+		alt="{{$ctrl.source.imgTitle}}"
+		onclick="playOnOff(this);"
+	/>
+</div>
+
+<script type="text/javascript">
+	var bgimgIndex = 0;
+	var bgImagesSrc = 
+	[
+		"/content/image/background/earth-view-from-satellite-space-systems-cover.jpg",
+		"/content/image/background/l.jpg",
+	];
+	var audio = new Audio('/content/audio/Космічна музика - Філософія очікування.mp3');
+	audio.onended = function() {
+		audio.play();
+	}
+	function playOnOff(element){
+		if(element.src.indexOf("icon_PlayOff.png") >= 0){
+			element.src = element.src.replace("icon_PlayOff.png","icon_PlayOn.png");
+			element.title = "Pause";
+			element.alt = "Pause";
+			audio.play();
+			return;
+		}
+		if(element.src.indexOf("icon_PlayOn.png") >= 0){
+			element.src = element.src.replace("icon_PlayOn.png","icon_PlayOff.png");
+			element.title = "Play";
+			element.alt = "Play";
+			audio.pause();
+			return;
+		}
+	}
+	function backward(element){
+		if (bgimgIndex <=0) 
+			bgimgIndex = bgImagesSrc.length;
+		document.getElementsByTagName('body')[0].setAttribute("style", "background-image: url("+bgImagesSrc[--bgimgIndex]+");background-repeat: no-repeat;background-attachment: fixed;background-position: center; background-size: cover;");
+	}
+	function forward(element){
+		if (bgimgIndex >= bgImagesSrc.length - 1) 
+			bgimgIndex = -1;
+		document.getElementsByTagName('body')[0].setAttribute("style", "background-image: url("+bgImagesSrc[++bgimgIndex]+");background-repeat: no-repeat;background-attachment: fixed;background-position: center; background-size: cover;");
+	}
+	
+</script>
+
+<style type="text/css">
+	.player
+	{
+		position: fixed;
+		bottom: 1.5%;
+		right: 2%;
+		z-index:99;
+	}
+
+	#playerImgBackward, #playerImgForward
+	{
+		width:5.5vh;
+		height:5.5vh;
+	}
+	#playerImgPlay
+	{
+		width:8vh;
+		height:8vh;
+	}
+	#playerImgPlay:hover,
+	#playerImgBackward:hover,
+	#playerImgForward:hover
+	{
+		cursor: pointer;
+		
+	}
+</style>
