@@ -41,5 +41,13 @@
       "imgUrl": "/content/image/icon/icon_row/icon_github.png", 
       "imgTitle": "GitHub"
     }
+	,
+    {
+      "Name": "Donation", 
+      "Title": "D:", 
+      "Data": "text", 
+      "imgUrl": "/content/image/icon/icon_row/donat_circle.png", 
+      "imgTitle": "Donation"
+    }
   ]
 }
