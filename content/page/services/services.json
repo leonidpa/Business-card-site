@@ -6,16 +6,16 @@
 	],
 	"Services" : 
 	[
-		{	"Title":"C#.Net Development", 
-			"Text": "Application development. Further software code support and development." , 
+		{	"Title":"C#.Net", 
+			"Text": "Computer science solutions development. Further support and development." , 
 			"Image": "/content/image/icon/icon-paragraph/icon_console.png"
 		},
-		{	"Title":"Web Development", 
-			"Text": "Personal websites, turnkey websites, web shops, blogs design and development." , 
+		{	"Title":"Web", 
+			"Text": "Personal websites, turnkey websites, web shops design and development." , 
 			"Image": "/content/image/icon/icon-paragraph/icon_webdev.png"
 		},
-		{	"Title":"Databases development", 
-			"Text": "Databases modelling, development and administration." , 
+		{	"Title":"Databases", 
+			"Text": "Databases manipulation, definiton, control, transaction and administration." , 
 			"Image": "/content/image/icon/icon-paragraph/icon_db.png"
 		},
 		{	"Title":"Any another work", 

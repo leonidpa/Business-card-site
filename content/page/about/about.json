@@ -17,12 +17,6 @@
 			"Url":"https://docs.microsoft.com/en-us/dotnet/csharp/"
 		},
 		{
-			"Name":"cpp", 
-			"Title":"C++", 
-			"ImageRelativePath": "cpp_logo.png",
-			"Url":"https://msdn.microsoft.com/en-us/library/hh279654.aspx"
-		},
-		{
 			"Name":"dotnet", 
 			"Title":".Net Framework", 
 			"ImageRelativePath": "dotnet.svg",
@@ -45,6 +39,12 @@
 			"Title":"CSS3", 
 			"ImageRelativePath": "css3.png",
 			"Url":"https://www.w3.org/Style/CSS/"
+		},
+		{
+			"Name":"sql", 
+			"Title":"SQL", 
+			"ImageRelativePath": "sql.png",
+			"Url":"https://docs.microsoft.com/en-us/sql/t-sql/language-reference?view=sql-server-ver15"
 		},
 		{
 			"Name":"xml", 
@@ -83,6 +83,12 @@
 			"Url":"https://www.iis.net/"
 		},
 		{
+			"Name":"visualstudio", 
+			"Title":"MS Visual Studio", 
+			"ImageRelativePath": "visualstudio.png",
+			"Url":"https://visualstudio.microsoft.com"
+		},
+		{
 			"Name":"mssqls", 
 			"Title":"MS Sql Server", 
 			"ImageRelativePath": "mssqls_w.png",
@@ -101,10 +107,10 @@
 			"Url":"http://www.kernel.org/"
 		},
 		{
-			"Name":"photoshop", 
-			"Title":"Adobe Photoshop", 
-			"ImageRelativePath": "photoshop.png",
-			"Url":"http://www.adobe.com/products/photoshop.html"
+			"Name":"gimp", 
+			"Title":"GIMP", 
+			"ImageRelativePath": "gimp-logo.png",
+			"Url":"https://www.gimp.org/"
 		}
 	]
 }

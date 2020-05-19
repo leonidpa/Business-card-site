@@ -12,21 +12,23 @@ var navigationPath;
 var jsonhttp = new XMLHttpRequest();
 var jsonurl = siteMainDataFilePath;
 
-jsonhttp.open("GET", jsonurl, false);
-jsonhttp.send();  
+jsonhttp.onload = function (e) {
+	if (jsonhttp.readyState == 4 && jsonhttp.status == 200){
+		var siteMainDataJSON = JSON.parse(jsonhttp.responseText);
+		if (siteMainDataJSON != null || siteMainDataJSON != 'undefined'){
+			__mainPagesAbsolutePath = siteMainDataJSON.__pagesAbsolutePath;
+			mainPages = siteMainDataJSON.mainPages;
+			navigationPath = [siteMainDataJSON.mainPages[0]];
+			preloadImages(siteMainDataJSON.preloadImages, true);
+		} else {
+			console.log("error : Site data not loaded!");
+		}
 
-if (jsonhttp.readyState == 4 && jsonhttp.status == 200){
-	var siteMainDataJSON = JSON.parse(jsonhttp.responseText);
-	if (siteMainDataJSON != null || siteMainDataJSON != 'undefined'){
-		__mainPagesAbsolutePath = siteMainDataJSON.__pagesAbsolutePath;
-		mainPages = siteMainDataJSON.mainPages;
-		navigationPath = [siteMainDataJSON.mainPages[0]];
-		preloadImages(siteMainDataJSON.preloadImages, true);
-	} else {
-		console.log("error : Site data not loaded!");
 	}
-
 }
+jsonhttp.open("GET", jsonurl, false);
+jsonhttp.send();
+
 /*------End load site data-----------------------------------------------------------------------*/
 
 /*--------------Setup site application-----------------------------------------------------------*/                
@@ -39,7 +41,7 @@ try{
 	LogError(err);
 }
 
-app.config(function($routeProvider){
+app.config(function($routeProvider, $compileProvider){
 	mainPages.forEach(function(page){
 		$routeProvider.when(page.Path, {
 			templateUrl : __mainPagesAbsolutePath + page.RelativeUrl,
@@ -47,6 +49,7 @@ app.config(function($routeProvider){
 		});
 	});
 	$routeProvider.otherwise({redirectTo: mainPages[0].Path});
+	$compileProvider.aHrefSanitizationWhitelist(/^\s*(https?|skype|tel|ftp|mailto|chrome-extension):/);
 });
 
 /*Controllers--------------------------------------------------------------------------------*/

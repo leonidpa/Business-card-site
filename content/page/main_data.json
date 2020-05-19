@@ -45,8 +45,10 @@
         "/content/image/icon/icon_row/icon_PlayOn.png",
         "/content/image/icon/icon_row/icon_Enter.png",
 
+		"/content/image/border/border-image-contacts.svg",
+		
         "/content/image/technologies/csharp.png",
-        "/content/image/technologies/cpp_logo.png",
+        "/content/image/technologies/sql.png",
         "/content/image/technologies/dotnet.svg",
         "/content/image/technologies/javascript.png",
         "/content/image/technologies/html5.png",
@@ -57,10 +59,11 @@
         "/content/image/technologies/jquery.png",
         "/content/image/technologies/ajax.png",
         "/content/image/technologies/iis_w.png",
+		"/content/image/technologies/visualstudio.png",
         "/content/image/technologies/mssqls_w.png",
         "/content/image/technologies/windows.png",
         "/content/image/technologies/linux.png",
-        "/content/image/technologies/photoshop.png",
+        "/content/image/technologies/gimp-logo.png",
         
         "/content/image/icon/icon-paragraph/icon_console.png",
         "/content/image/icon/icon-paragraph/icon_webdev.png",
@@ -71,6 +74,8 @@
         "/content/image/icon/icon_row/icon_phone.png",
         "/content/image/icon/icon_row/icon_email.png",
         "/content/image/icon/icon_row/icon_skype.png",
+		"/content/image/icon/icon_row/telegram-white-logo.png",
+		"/content/image/icon/icon_row/donat_circle.png",
         "/content/image/icon/icon_row/icon_github.png"
     ]
 }
