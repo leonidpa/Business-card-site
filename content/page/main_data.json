@@ -1,0 +1,81 @@
+{
+    "__pagesAbsolutePath" : 
+    "/content/page",
+
+    "mainPages" :
+    [
+        {
+            "Name" : "", 
+            "Title" : "Home", 
+            "Path" : "/", 
+            "RelativeUrl" : "/home/home.html", 
+            "Controller" : "homeCtrl"
+        },
+        {
+            "Name" : "about", 
+            "Title" : "About", 
+            "Path" : "/about", 
+            "RelativeUrl" : "/about/about.html", 
+            "Controller" : "aboutCtrl"
+        },
+        {
+            "Name" : "services", 
+            "Title" : "Services", 
+            "Path" : "/services", 
+            "RelativeUrl" : "/services/services.html", 
+            "Controller" : "servicesCtrl"
+        },
+        {
+            "Name" : "contact", 
+            "Title" : "Contact", 
+            "Path" : "/contact", 
+            "RelativeUrl" : "/contact/contact.html", 
+            "Controller" : "contactCtrl"
+        }
+    ],
+
+    "preloadImages" :
+    [
+        "/content/image/background/earth-view-from-satellite-space-systems-cover.jpg",
+		"/content/image/icon/icon_row/icon_Esc.png",
+        "/content/image/icon/icon_row/icon_PlayOff.png",
+        "/content/image/icon/icon_row/icon_Backward.png",
+        "/content/image/icon/icon_row/icon_Forward.png",
+        "/content/image/background/l.jpg",
+        "/content/image/icon/icon_row/icon_PlayOn.png",
+        "/content/image/icon/icon_row/icon_Enter.png",
+
+		"/content/image/border/border-image-contacts.svg",
+		
+        "/content/image/technologies/csharp.png",
+        "/content/image/technologies/sql.png",
+        "/content/image/technologies/dotnet.svg",
+        "/content/image/technologies/javascript.png",
+        "/content/image/technologies/html5.png",
+        "/content/image/technologies/css3.png",
+        "/content/image/technologies/xml.png",
+        "/content/image/technologies/json.png",
+        "/content/image/technologies/angular.png",
+        "/content/image/technologies/jquery.png",
+        "/content/image/technologies/ajax.png",
+        "/content/image/technologies/iis_w.png",
+		"/content/image/technologies/visualstudio.png",
+        "/content/image/technologies/mssqls_w.png",
+        "/content/image/technologies/windows.png",
+        "/content/image/technologies/linux.png",
+        "/content/image/technologies/gimp-logo.png",
+        
+        "/content/image/icon/icon-paragraph/icon_console.png",
+        "/content/image/icon/icon-paragraph/icon_webdev.png",
+        "/content/image/icon/icon-paragraph/icon_db.png",
+        "/content/image/icon/icon-paragraph/icon_bulb.png",
+
+        "/content/image/icon/icon_row/icon_address.png",
+        "/content/image/icon/icon_row/icon_phone.png",
+        "/content/image/icon/icon_row/icon_email.png",
+        "/content/image/icon/icon_row/icon_skype.png",
+		"/content/image/icon/icon_row/telegram-white-logo.png",
+		"/content/image/icon/icon_row/donat_circle.png",
+        "/content/image/icon/icon_row/icon_github.png"
+    ]
+}

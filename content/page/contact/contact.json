@@ -1,0 +1,60 @@
+{
+  "Annotations" : 
+  [
+    "If you want to say me \"hello\" or ask a question,", 
+    "just call or send an email."
+  ],
+  "Contacts" : 
+  [
+    {
+      "Name": "address", 
+      "Title": "A:", 
+      "Data": "test", 
+      "imgUrl": "/content/image/icon/icon_row/icon_address.png", 
+      "imgTitle": "Address"
+    },
+    {
+      "Name": "phonenumber", 
+      "Title": "T:", 
+      "Data": "test", 
+      "imgUrl": "/content/image/icon/icon_row/icon_phone.png", 
+      "imgTitle": "Phone nuber"
+    },
+    {
+      "Name": "email", 
+      "Title": "E:", 
+      "Data": "test", 
+      "imgUrl": "/content/image/icon/icon_row/icon_email.png", 
+      "imgTitle": "Email"
+    },
+    {
+      "Name": "skype", 
+      "Title": "S:", 
+      "Data": "test", 
+      "imgUrl": "/content/image/icon/icon_row/icon_skype.png", 
+      "imgTitle": "Skype"
+    },
+    {
+      "Name": "telegram", 
+      "Title": "T:", 
+      "Data": "test", 
+      "imgUrl": "/content/image/icon/icon_row/telegram-white-logo.png", 
+      "imgTitle": "Telegram"
+    },
+    {
+      "Name": "github", 
+      "Title": "G:", 
+      "Data": "test", 
+      "imgUrl": "/content/image/icon/icon_row/icon_github.png", 
+      "imgTitle": "GitHub"
+    }
+	,
+    {
+      "Name": "donation", 
+      "Title": "D:", 
+      "Data": "test", 
+      "imgUrl": "/content/image/icon/icon_row/donat_circle.png", 
+      "imgTitle": "Donation"
+    }
+  ]
+}
