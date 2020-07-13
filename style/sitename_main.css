@@ -53,6 +53,10 @@ body a{
 	color: rgb(255,215,0);
 	text-decoration: none;
 }
+a, .navigation-menu-li a{
+	cursor: url('/content/image/cursor/hand_cursor.cur'), auto;
+}
+
 #sitename{
 	background-color:none;
 }
@@ -98,7 +102,7 @@ body a{
 {
 	background-color:white;
 	color: black;
-	cursor: pointer;
+	
 }
 .navigation-menu-li a,.navigation-menu-li span{
 	display: inherit;
@@ -200,9 +204,10 @@ main.ng-enter.ng-enter-active {
 }
 
 .contacts-wrapper{
-	width: 190pt;
+	width: 210pt;
 	background-color: rgba(19,9,2,0.75);
-	margin-top: 4vh !important;
+	margin-top: 7vh !important;
+	margin-bottom: 7vh !important;
 	border: solid;
     border-image-source: url("/content/image/border/border-image-contacts.svg");
     border-image-repeat: round;

@@ -9,42 +9,42 @@
     {
       "Name": "address", 
       "Title": "A:", 
-      "Data": "test", 
+      "Data": "", 
       "imgUrl": "/content/image/icon/icon_row/icon_address.png", 
       "imgTitle": "Address"
     },
     {
       "Name": "phonenumber", 
       "Title": "T:", 
-      "Data": "test", 
+      "Data": "", 
       "imgUrl": "/content/image/icon/icon_row/icon_phone.png", 
       "imgTitle": "Phone nuber"
     },
     {
       "Name": "email", 
       "Title": "E:", 
-      "Data": "test", 
+      "Data": "", 
       "imgUrl": "/content/image/icon/icon_row/icon_email.png", 
       "imgTitle": "Email"
     },
     {
       "Name": "skype", 
       "Title": "S:", 
-      "Data": "test", 
+      "Data": "", 
       "imgUrl": "/content/image/icon/icon_row/icon_skype.png", 
       "imgTitle": "Skype"
     },
     {
       "Name": "telegram", 
       "Title": "T:", 
-      "Data": "test", 
+      "Data": "", 
       "imgUrl": "/content/image/icon/icon_row/telegram-white-logo.png", 
       "imgTitle": "Telegram"
     },
     {
       "Name": "github", 
       "Title": "G:", 
-      "Data": "test", 
+      "Data": "", 
       "imgUrl": "/content/image/icon/icon_row/icon_github.png", 
       "imgTitle": "GitHub"
     }
@@ -52,7 +52,7 @@
     {
       "Name": "donation", 
       "Title": "D:", 
-      "Data": "test", 
+      "Data": "", 
       "imgUrl": "/content/image/icon/icon_row/donat_circle.png", 
       "imgTitle": "Donation"
     }

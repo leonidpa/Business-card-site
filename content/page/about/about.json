@@ -17,6 +17,12 @@
 			"Url":"https://docs.microsoft.com/en-us/dotnet/csharp/"
 		},
 		{
+			"Name":"xaml", 
+			"Title":"XAML", 
+			"ImageRelativePath": "xaml.png",
+			"Url":"https://docs.microsoft.com/ru-ru/dotnet/desktop-wpf/fundamentals/xaml"
+		},
+		{
 			"Name":"dotnet", 
 			"Title":".Net Framework", 
 			"ImageRelativePath": "dotnet.svg",
@@ -93,6 +99,12 @@
 			"Title":"MS Sql Server", 
 			"ImageRelativePath": "mssqls_w.png",
 			"Url":"https://www.microsoft.com/en-us/sql-server/sql-server-2017"
+		},
+		{
+			"Name":"sqlite", 
+			"Title":"SQLite", 
+			"ImageRelativePath": "sqlite.png",
+			"Url":"https://www.sqlite.org"
 		},
 		{
 			"Name":"windows", 
